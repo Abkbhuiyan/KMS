@@ -29,8 +29,7 @@
                 <a href="#" class="nav-link"><i class="flaticon-classmates"></i><span>Students</span></a>
                 <ul class="nav sub-group-menu">
                     <li class="nav-item">
-                        <a href="all-student.html" class="nav-link"><i class="fas fa-angle-right"></i>All
-                            Students</a>
+                        <a href="all-student.html" class="nav-link"><i class="fas fa-angle-right"></i>সব</a>
                     </li>
                     <li class="nav-item">
                         <a href="student-details.html" class="nav-link"><i
@@ -43,6 +42,19 @@
                     <li class="nav-item">
                         <a href="student-promotion.html" class="nav-link"><i
                                     class="fas fa-angle-right"></i>Student Promotion</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item sidebar-nav-item">
+                <a href="#" class="nav-link"><i
+                            class="flaticon-multiple-users-silhouette"></i><span>Academic Session</span></a>
+                <ul class="nav sub-group-menu">
+                    <li class="nav-item">
+                        <a href="{{route('academicSession.index')}}" class="nav-link"><i class="fas fa-angle-right"></i>List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{route('academicSession.create')}}" class="nav-link"><i
+                                    class="fas fa-angle-right"></i>Add New</a>
                     </li>
                 </ul>
             </li>

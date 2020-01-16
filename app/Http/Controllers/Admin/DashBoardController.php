@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
-use App\DashBoard;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class DashBoardController extends Controller
