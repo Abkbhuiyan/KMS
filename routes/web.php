@@ -15,4 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('mad/dashboard','DashBoardController');
+Route::group(['prefix'=>'mad','namespace'=>'Admin'],function (){
+    Route::resource('dashboard','DashBoardController');
+    Route::resource('academicSession','AcademicSessionController');
+});
